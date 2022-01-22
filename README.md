@@ -1,5 +1,6 @@
 # foxyland
 
+This is a 2D Platformer Game(Still working on it it is ot done yet)
 Click the following link so you can play the game in the browser!
 https://meganlynn21.github.io/foxyland/
 
