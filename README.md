@@ -9,3 +9,4 @@ I put in a health score with 5 lives and a cherry counter to the upper left hand
 
 Enjoy the game! 
 USE A TO MOVE LEFT AND D TO MOVE RIGHT OR YOU CAN USE THE ARROW KEYS AND SPACE BAR TO JUMP
+<img width="678" alt="foxyland" src="https://user-images.githubusercontent.com/83522315/150625488-8643dcb5-9c90-4602-9641-724ef455dbd2.png">
