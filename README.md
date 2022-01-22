@@ -2,6 +2,8 @@
 
 This is a 2D Platformer Game based on the Sunnyland game(Still working on it, not done yet, work in progress)
 
+USE A TO MOVE LEFT AND D TO MOVE RIGHT OR YOU CAN USE THE ARROW KEYS AND SPACE BAR TO JUMP
+
 Click the following link so you can play the game in the browser!
 https://meganlynn21.github.io/foxyland/
 
@@ -17,6 +19,6 @@ If you jump on their heads you kill them. You can collect cherries.
 The goal is to get home to the end. I plan on adding a lot more, this is just a starter. I used a bunch of animations and used C# programming.
 
 Enjoy the game! 
-USE A TO MOVE LEFT AND D TO MOVE RIGHT OR YOU CAN USE THE ARROW KEYS AND SPACE BAR TO JUMP
+
 
 
