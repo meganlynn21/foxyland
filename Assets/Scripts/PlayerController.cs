@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         AnimationState();
         anim.SetInteger("state", (int)state);  //sets animation based on Enumerator State
     }
-
+    // Cherry Counter
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Collectible")
@@ -55,14 +55,15 @@ public class PlayerController : MonoBehaviour
 
         }
     }
-
+   
     private void OnCollisionEnter2D(Collision2D other)
     {
         if(other.gameObject.tag == "Enemy")
         {
+            Enemy enemy = other.gameObject.GetComponent<Enemy>();
             if(state == State.falling)
             {
-                Destroy(other.gameObject);
+                enemy.JumpedOn();
                 Jump();
             }
             else
@@ -83,7 +84,7 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-
+    // Health for player
     private void HandleHealth()
     {
         health -= 1;
